@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+canvas {
+    border: 2px solid black;
+    background-color: lightgray;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+#guess-input {
+    padding: 10px;
+    width: 80px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+#hint-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
